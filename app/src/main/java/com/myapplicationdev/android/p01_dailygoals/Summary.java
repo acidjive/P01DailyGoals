@@ -24,9 +24,9 @@ public class Summary extends AppCompatActivity {
         TextView tv4 = (TextView) findViewById(R.id.textView4);
 
         //Display the name and age on the TextView
-        tv1.setText("Read up on materil before class: " + info[0] );
-        tv2.setText("Arrive on time so as not to miss important part of the lesson:  " + info[1] );
-        tv3.setText("Attempt the problem myself: " + info[2] );
-        tv4.setText("Reflection" + info[3] );
+        tv1.setText("Read up on materil before class:  " + info[0] );
+        tv2.setText("Arrive on time so as not to miss important part of the lesson:   " + info[1] );
+        tv3.setText("Attempt the problem myself:  " + info[2] );
+        tv4.setText("Reflection:  " + info[3] );
     }
 }
